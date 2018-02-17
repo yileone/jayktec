@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OlympusApi"/>
+	<classpathentry kind="lib" path="/OpenXava/lib/gson-2.4.jar"/>
+	<classpathentry kind="lib" path="/OpenXava/lib/mysql-connector-java-5.1.44-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Afrodita"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
