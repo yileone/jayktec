@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.3.final using JasperReports Library version 6.4.3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5a9e65a3-e74e-4dbb-b3d3-1d092ab2cea5">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.xml"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT registro_date_1,registro_time_1,registro_float_1,registro_float_2 FROM fateon.fateon_registro1 group by registro_date_1 ;]]>
+	</queryString>
+	<field name="registro_date_1" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.label" value="registro_date_1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro1"/>
+	</field>
+	<field name="registro_time_1" class="java.sql.Time">
+		<property name="com.jaspersoft.studio.field.label" value="registro_time_1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro1"/>
+	</field>
+	<field name="registro_float_1" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.label" value="registro_float_1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro1"/>
+	</field>
+	<field name="registro_float_2" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.label" value="registro_float_2"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro1"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="247" splitType="Stretch">
+			<timeSeriesChart>
+				<chart evaluationTime="Report">
+					<reportElement x="-10" y="-10" width="560" height="257" uuid="f940e356-1496-4991-8d03-2e1a00ac34c1"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<timeSeriesDataset timePeriod="Week">
+					<timeSeries>
+						<seriesExpression><![CDATA["SERIES 1"]]></seriesExpression>
+						<timePeriodExpression><![CDATA[$F{registro_date_1}]]></timePeriodExpression>
+						<valueExpression><![CDATA[$F{registro_float_1}]]></valueExpression>
+						<labelExpression><![CDATA[$F{registro_float_1}.toString()]]></labelExpression>
+					</timeSeries>
+					<timeSeries>
+						<seriesExpression><![CDATA["SERIES 2"]]></seriesExpression>
+						<timePeriodExpression><![CDATA[$F{registro_date_1}]]></timePeriodExpression>
+						<valueExpression><![CDATA[$F{registro_float_2}]]></valueExpression>
+						<labelExpression><![CDATA[$F{registro_float_2}.toString()]]></labelExpression>
+					</timeSeries>
+				</timeSeriesDataset>
+				<timeSeriesPlot>
+					<plot/>
+					<timeAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</timeAxisFormat>
+					<valueAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</valueAxisFormat>
+				</timeSeriesPlot>
+			</timeSeriesChart>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

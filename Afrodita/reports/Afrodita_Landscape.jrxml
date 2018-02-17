@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.3.final using JasperReports Library version 6.4.3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Afrodita_Landscape" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="60c0c8c6-16ea-41dd-a935-19e952764cab">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<subDataset name="AfroditaDataSet" uuid="6a7f84fa-2e45-45b0-8103-94a5532f42db">
+		<property name="com.jaspersoft.studio.data.sql.tables">
+			<![CDATA[ZmF0ZW9uX3JlZ2lzdHJvICwxNSwxNSw4ZjI1MWIzMi1mZjU2LTQ5N2UtYjlmNS02NTgyMDg4OWNk
+MWI7
+]]>
+		</property>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.xml"/>
+		<queryString>
+			<![CDATA[SELECT *
+FROM fateon_registro]]>
+		</queryString>
+		<field name="registro_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="registro_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_fecha" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.label" value="registro_fecha"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_varchar_1" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="registro_varchar_1"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_varchar_2" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="registro_varchar_2"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_varchar_3" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="registro_varchar_3"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_varchar_4" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="registro_varchar_4"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_varchar_5" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="registro_varchar_5"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_int_1" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.label" value="registro_int_1"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_int_2" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.label" value="registro_int_2"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_int_3" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.label" value="registro_int_3"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_int_4" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.label" value="registro_int_4"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_int_5" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.label" value="registro_int_5"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_float_1" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.label" value="registro_float_1"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_float_2" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.label" value="registro_float_2"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_float_3" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.label" value="registro_float_3"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_float_4" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.label" value="registro_float_4"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_float_5" class="java.lang.Float">
+			<property name="com.jaspersoft.studio.field.label" value="registro_float_5"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_date_1" class="java.sql.Date">
+			<property name="com.jaspersoft.studio.field.label" value="registro_date_1"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_date_2" class="java.sql.Date">
+			<property name="com.jaspersoft.studio.field.label" value="registro_date_2"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_date_3" class="java.sql.Date">
+			<property name="com.jaspersoft.studio.field.label" value="registro_date_3"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_date_4" class="java.sql.Date">
+			<property name="com.jaspersoft.studio.field.label" value="registro_date_4"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_date_5" class="java.sql.Date">
+			<property name="com.jaspersoft.studio.field.label" value="registro_date_5"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_time_1" class="java.sql.Time">
+			<property name="com.jaspersoft.studio.field.label" value="registro_time_1"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_time_2" class="java.sql.Time">
+			<property name="com.jaspersoft.studio.field.label" value="registro_time_2"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_time_3" class="java.sql.Time">
+			<property name="com.jaspersoft.studio.field.label" value="registro_time_3"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_time_4" class="java.sql.Time">
+			<property name="com.jaspersoft.studio.field.label" value="registro_time_4"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_time_5" class="java.sql.Time">
+			<property name="com.jaspersoft.studio.field.label" value="registro_time_5"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_datetime_1" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.label" value="registro_datetime_1"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_datetime_2" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.label" value="registro_datetime_2"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_datetime_3" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.label" value="registro_datetime_3"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_datetime_4" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.label" value="registro_datetime_4"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+		<field name="registro_datetime_5" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.label" value="registro_datetime_5"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+		</field>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="214" splitType="Stretch">
+			<xyLineChart>
+				<chart evaluationTime="Report">
+					<reportElement x="-10" y="10" width="572" height="190" uuid="c20b453b-af28-4e59-9328-bcf7aabf717d"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<xyDataset>
+					<dataset>
+						<datasetRun subDataset="AfroditaDataSet" uuid="34b03224-db68-49fc-a84f-ac3d865d1faa">
+							<dataSourceExpression><![CDATA[]]></dataSourceExpression>
+						</datasetRun>
+					</dataset>
+					<xySeries>
+						<seriesExpression><![CDATA["SERIES 1"]]></seriesExpression>
+						<xValueExpression><![CDATA[0]]></xValueExpression>
+						<yValueExpression><![CDATA[$F{registro_date_1}]]></yValueExpression>
+						<labelExpression><![CDATA[$F{registro_float_1}]]></labelExpression>
+					</xySeries>
+				</xyDataset>
+				<linePlot>
+					<plot/>
+					<categoryAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</valueAxisFormat>
+				</linePlot>
+			</xyLineChart>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.3.final using JasperReports Library version 6.4.3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_Letter" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="15901767-be7b-47aa-8d5f-001229565118">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.xml"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM fateon.fateon_registro]]>
+	</queryString>
+	<field name="registro_float_1" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.label" value="registro_float_1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+	</field>
+	<field name="registro_float_2" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.label" value="registro_float_2"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+	</field>
+	<field name="registro_time_1" class="java.sql.Time">
+		<property name="com.jaspersoft.studio.field.label" value="registro_time_1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+	</field>
+	<field name="registro_date_1" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.label" value="registro_date_1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fateon_registro"/>
+	</field>
+	<group name="registro_time_1">
+		<groupExpression><![CDATA[$F{registro_time_1}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="260" splitType="Stretch">
+			<areaChart>
+				<chart evaluationTime="Report">
+					<reportElement x="130" y="10" width="330" height="200" uuid="3ea02b38-2964-470f-9ef5-8d04d769f8cc"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<categorySeries>
+						<seriesExpression><![CDATA["SERIES 1"]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{registro_time_1}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{registro_float_1}]]></valueExpression>
+					</categorySeries>
+				</categoryDataset>
+				<areaPlot>
+					<plot/>
+					<categoryAxisFormat>
+						<axisFormat/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat/>
+					</valueAxisFormat>
+				</areaPlot>
+			</areaChart>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
