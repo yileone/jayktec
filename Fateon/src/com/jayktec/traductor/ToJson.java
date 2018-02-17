@@ -9,9 +9,7 @@ import java.util.Calendar;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
-import com.jayktec.bd.objetos.Mapa;
-import com.jayktec.bd.objetos.Registro;
-import com.jayktec.bd.objetos.Sensor;
+import com.jayktec.xyzOlympus.models.*;
 import com.jayktec.controlador.Constantes;
 import com.jayktec.persistencia.BdManager;
 

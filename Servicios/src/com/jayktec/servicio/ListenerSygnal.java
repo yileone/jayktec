@@ -4,8 +4,8 @@
 package com.jayktec.servicio;
 
 import java.net.*;
+import com.jayktec.xyzOlympus.models.*;
 
-import com.jayktec.bd.objetos.*;
 
 /**
  * @author Servicio que implementa la recepción de señal

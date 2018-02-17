@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.*;
 import java.util.logging.*;
 
-import com.jayktec.bd.objetos.*;
+import com.jayktec.xyzOlympus.models.*;
 import com.jayktec.controlador.Constantes;
 import com.jayktec.controller.*;
 
@@ -29,7 +29,7 @@ public class BdManager {
 
 	public ArrayList<Registro> consultarRegistro(String origen, Sensor sensor) throws SQLException {
 
-		String sql = "select * from fateon_registro where sensor_id=" + sensor.getId()+
+		String sql = "select * from fateon_registro where sensor_id=" + sensor.getOid()+
 				" origen_id="+origen;
 		return consultarRegistro(sql);
 
