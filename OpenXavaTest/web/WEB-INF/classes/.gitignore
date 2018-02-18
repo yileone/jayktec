@@ -7,6 +7,14 @@
 /Invoice.jrxml
 /InvoiceNoVAT.jrxml
 /LoginContextFactory.properties
+/OpenXavaTest-labels_ca.properties
+/OpenXavaTest-labels_en.properties
+/OpenXavaTest-labels_es.properties
+/OpenXavaTest-labels_fr.properties
+/OpenXavaTest-messages_ca.properties
+/OpenXavaTest-messages_en.properties
+/OpenXavaTest-messages_es.properties
+/OpenXavaTest-messages_fr.properties
 /Products.jrxml
 /jndi-jboss.properties
 /jndi-websphere.properties
