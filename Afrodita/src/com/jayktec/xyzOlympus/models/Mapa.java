@@ -60,6 +60,9 @@ public class Mapa {
 
 
 
+	public String getMapabdToString() {
+		return mapabd.getValorCadena();
+	}
 	public Catalogo getMapabd() {
 		return mapabd;
 	}

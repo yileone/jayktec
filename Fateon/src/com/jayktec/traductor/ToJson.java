@@ -69,7 +69,7 @@ public class ToJson {
 		for (Registro registro : listaRegistro) {
 			temp = temp + "{";
 			for (Mapa mapaItem : mapa) {
-				String campo = mapaItem.getCampo();
+				String campo = mapaItem.getMapabdToString();
 				String valor = "";
 				String nombreCampo = mapaItem.getMapaapp();
 				if (campo.equals(Constantes.CampoRegistro.DATE1.campoBD)) {
